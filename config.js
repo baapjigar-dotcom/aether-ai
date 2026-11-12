@@ -8,7 +8,7 @@
  */
 window.APP_CONFIG = {
   // Configured API Key (Set here for local browser mode, or move to .dev.vars when using server/proxy.js)
-  apiKey: "AQ.Ab8RN6JDGOy_U0MMStWlfEJ3yOEFXPO1Zjo3S0UHpn1RZnpyQA",
+  apiKey: "AQ.Ab8RN6IsLDRUpjNR5PpVDOIXJd3ayq108_-klxMuG4FtGzRSzg",
 
   // Gemini OpenAI-Compatible Endpoint (or set to "/api/chat" when running behind server/proxy.js)
   apiEndpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
