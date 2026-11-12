@@ -1,0 +1,10 @@
+{
+  "name": "novaos-ai",
+  "version": "4.1.0",
+  "description": "NovaOS AI \u2014 hardened AI workspace with BM25 RAG, multi-round tools and Firebase-secured proxy",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/app.test.js && node tests/proxy.test.js && node tests/syntax.test.js",
+    "start": "python3 -m http.server 8000"
+  }
+}

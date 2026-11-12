@@ -1,0 +1,15 @@
+name = "novaos-ai-proxy"
+main = "server/proxy.js"
+compatibility_date = "2026-11-11"
+workers_dev = true
+
+[vars]
+ENVIRONMENT = "production"
+ALLOW_LOCAL_ORIGINS = "false"
+REQUIRE_FIREBASE_AUTH = "true"
+ALLOWED_ORIGINS = "https://your-novaos-app.example"
+FIREBASE_PROJECT_ID = "your-firebase-project-id"
+MAX_TOKENS_CAP = "2048"
+RATE_LIMIT_PER_MIN = "30"
+# Optional: set this to a comma-separated allow-list of models you actually use.
+# ALLOWED_MODELS = "gpt-4o-mini,gpt-4o"
